@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/*initialisation*/ 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*definition de la mise en forme sur le body*/
+body{
+   
+}
+/* structure  de la navBarre*/
+.NavBarre{
+    width: 100%;
+    height: 73px;
+    background-color: #1A0B2E;
+    color: white;
+    display: flex;
+    z-index: 10;
+    justify-content: space-around;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    position: fixed;
+} 
+/* difinition de la dimention du logo*/
+.logo img{
+    display: inline-block;
+    margin-top: 8px;
+    height: 45px;
+}
+/*disposition et deinition de la liste d'lement du menu*/
+.list{
+    width: 45%;
+    top: 24px;
+    display: inline-block;
+    margin-top: 27px;
+    height: 20px;
+}
+.list ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex direction: row;
+    justify-content: space-around;
+}
+.list a{
+    text-decoration: none;
+    font-size: 15spx;
+    color: white;
+}
+
+/* definition de la structure generale de pages*/
+.pag{
+    height: 5750px;
+    background-color: #11071F;
+    background-image: linear-gradient(to right,0.5,1);
+}
+.page{
+    height: 550px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* disposition de la presntation*/
+.presentation{
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    font-family: 'Caveat', cursive;
+}
+.presentation span{
+    color: #7127BA;
+}
+.a .cadre1{
+    display: inline-block;
+    margin-top: 190px;
+    z-index: 0;
+    width: 300px;
+}
+.a .cadre1 img[title]{
+    position: absolute;
+    top: 270px;
+    margin-left: 12%;
+   /* filter: drop-shadow(0 0 5px #763CAC);*/,,,,,,
+}
+@media all and (max-width: 650px) {
+    .a .cadre1 img[title]{
+        margin-left: 35%;
+}
+}
+@media all and (max-width: 1142px;) {
+     .a .cadre1 img[title]{
+        margin-left: 80%;
+}
+}
+
+.imagePro img{
+    margin-top: 61px;
+    margin-left: 25%;
+    transform: rotate(13deg);
+    z-index: 1;
+    width: 170px;
+    filter: drop-shadow(0 0 5px #763CAC);
+}
+.slogan{
+    color: white;
+    position: absolute;
+    top: 321px;
+   margin-left: 30%;
+}
+.slogan span{
+    color: #440980;
+}
+.motivation{
+    position: absolute;
+    color: white;
+    width: 65%;
+    left: 16%;
+}
+.motivation button{
+    color: white;
+    height: 20px;
+    width: 60px;
+    display: inline-block;
+    background-color: #1A0B2E;
+    border-radius: 10%;
+}
+.motivation p{
+    font-size: 26px;
+}
+.b{
+    position: absolute;
+    height: 100%;
+    width: 74%;
+    color: #ffff;
+    left: 6%;
+    top: 950px;
+    background-image: url("../img/Gradient.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    
+}
+.b h2{
+    margin-top: 10%;
+    font-size: 40px;
+}
+#Ex{
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Ex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wE{
+width: 90%;
+height: 20%;
+border-radius: 3%;
+opacity: 0.6;
+border-top: solid #693B93;
+box-shadow: #693B9;
+display: flex;
+}
+.Ex3{
+   margin-top: 5%;
+}
+#a,#b{
+    background-image: linear-gradient(to right,#130428,#251043,#38126D,#261045,#1C0938,#190634);
+}
+#c,#d{
+    background-image: linear-gradient(to left,#130428,#251043,#38126D,#261045,#1C0938,#190634);
+}
+.pin{
+    width: 20%;
+    height: 130px;
+    background-image: url("../img/Rectangle.png");
+    background-repeat: no-repeat;
+    margin: 4%;
+}
+.txt{
+    margin-top: 4%;
+    width: 60%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.txt button{
+    width: 26%;
+    height: 23px;
+    border-radius: 10px;
+    bottom: 0%;
+    justify-content: space-around;
+}
+.c{
+    position: absolute;
+    color: #ffff;
+    top: 1700px;
+    height: 100%;
+    width: 60%;
+    left: 10%;
+}
+#objets{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#objets h3{
+    font-size: 30px;
+}
+#objets p{
+    font-size: 24px;
+}
+#logos{
+    height: 13%;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.colun{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-items: center;
+}
+#ligne1{
+    justify-content: space-around;
+}
+#ligne2{
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 80%;
+}
+.rond{
+    width: 11%;
+    height: 50px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x:center;
+    background-position-y: center;
+
+}
+#rond1{
+    background-image: url("../img/figma.png");
+    background-size: 40%;
+}
+#rond2{
+    background-image: url("../img/Rectangle\ 3.png");
+    background-size: 70%;
+}
+#rond3{
+    background-image: url("../img/Rectangle\ 4.png");
+    background-size: 70%;
+}
+#rond4{
+    background-image: url("../img/Rectangle\ 7.png");
+    background-size: 80%;
+}
+#rond5{
+    background-image: url("../img/Rectangle\ 6.png");
+    background-size: 50%;
+}
+#rond6{
+    background-image: url("../img/html.png");
+    background-size: 70%;
+}
+#rond7{
+    background-image: url("../img/java.png");
+    background-size: 70%;
+}
+#rond8{
+    background-image: url("../img/format-de-fichier-ouvert-jsp-avec-logo-java.png");
+    background-size: 50%;
+}
+#rond8, #rond9, #rond10, #rond11, #rond12, #rond13{
+width: 16%;
+}
+#tiges{
+    margin-top: -2%;
+width: 35%;
+margin-left: 32%;
+height: 35%;
+display: flex;
+justify-content: space-between;
+
+}
+.tige{
+    margin-top: -5%;
+ height: 100%;
+ width: 15%;
+ background-repeat: no-repeat;
+ background-position-x:center;
+background-position-y: center;
+}
+#tige1{
+    background-image: url("../img/Vector\ 28.png");
+}
+#tige2{
+    background-image: url("../img/Vector\ 29.png");
+}
+#tige3{
+    
+    background-image: url("../img/tige1.png");
+    
+}
+#tige4{
+    background-image: url("../img/Vector\ 27.png");
+    
+}
+#tige5{
+    background-image: url("../img/Vector\ 26.png");
+}
+#tige6{
+    background-image: url("../img/Vector\ 25.png");
+}
+.cercle1{
+    border-radius: 100%;
+}
+#cercle{
+    margin-top: -5%;
+    width: 100%;
+    height: 40.3%;
+    border-radius: 100%;
+}
+.cercle1{
+    border-radius: 100%;
+}
+#cercle1{
+    width: 100%;
+    height: 100%;
+   background-image: url("../img/Ellipse\ 21.png");
+   background-repeat: no-repeat;
+   background-position-x:center;
+   background-position-y: center;
+
+}
+#cercle2{
+    width: 90%;
+    height: 100%;
+    background-image: url("../img/Ellipse\ 22.png");
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+}
+#cercle3{
+    width: 90%;
+    height: 100%;
+    background-image:url("../img/Ellipse\ 23.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    margin-left: 5%;
+}
+#deg{
+    width: 90%;
+    height: 100%;
+    background-image: url("../img/Ellipse6.png");
+    margin-left: 5%;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+}
+#cercle4{
+    width: 80%;
+    height: 80%;
+    background-image: url("../img/Ellipse\ 24.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+   background-position-y: center;
+    margin-left: 5%;
+}
+#cercle5{
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/Ellipse\ 25.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    margin-top: 5%;
+}
+#deg2{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/Ellipse\ 20.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    margin-left: 25%;
+}
+#lumiere{
+    padding-top: 20%;
+    width: 60%;
+    height: 80%;
+    background-image: url("../img/Group\ 1897.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    margin-left: 20%;
+}
+#logo2{
+   /* background-color: red;*/
+    margin-left: 25%;
+    width: 50%;
+    height: 40%;
+}
+#logo2 img{
+    width: 78px;
+    margin-top: 34%;
+}
