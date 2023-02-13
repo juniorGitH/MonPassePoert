@@ -21,6 +21,11 @@ body{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     position: fixed;
 } 
+@media all and (max-width:850px){
+    .NavBarre{
+height: 60px;
+    }
+}
 /* difinition de la dimention du logo*/
 .logo img{
     display: inline-block;
@@ -48,7 +53,9 @@ body{
     font-size: 15spx;
     color: white;
 }
-
+.list li[title]{
+    display: none;
+}
 /* definition de la structure generale de pages*/
 .pag{
     height: 5750px;
